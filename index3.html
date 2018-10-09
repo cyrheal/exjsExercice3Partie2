@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice3</title>
+</head>
+<body>
+  <form>
+    <label for="lastname">Votre nom  : </label>
+    <input type="text" name="lastname" id="lastname" onkeyup="DialogBox()">
+  </form>
+  <script>
+  function DialogBox() {
+	var key = document.getElementById('lastname').value
+	alert(key)
+}
+  </script>
+</body>
+</html>
